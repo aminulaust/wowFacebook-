@@ -409,7 +409,7 @@ public class FacebookFragment extends Fragment{
                 .setContentTitle("Integrate Facebook Login to your Android App")
                 .setContentDescription(
                         "This app shows how to integrate Facebook Login to your Android App")
-                .setContentUrl(Uri.parse("http://www.androidtutorialpoint.com/material-design/adding-facebook-login-to-android-app/"))
+                .setContentUrl(Uri.parse("aminulaust.blogspot.com"))
                 .build();
         if (canPresentShareDialog) {
             shareDialog.show(linkContent);
@@ -440,7 +440,8 @@ public class FacebookFragment extends Fragment{
             pendingAction = PendingAction.POST_PHOTO;
             // We need to get new permissions, then complete the action when we get called back.
             LoginManager.getInstance().logInWithPublishPermissions(
-                    this, Arrays.asList(PERMISSION));
+                    this,
+                    Arrays.asList(PERMISSION));
         }
     }
 

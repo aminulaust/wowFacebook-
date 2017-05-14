@@ -457,6 +457,7 @@ public class FacebookFragment extends Fragment{
             handlePendingAction();
         }
     }
+    
 
     /**
      * Background Async task to load user profile picture from url
